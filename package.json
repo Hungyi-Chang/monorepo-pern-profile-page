@@ -1,0 +1,27 @@
+{
+  "name": "monorepo-pern-profile-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hungyi-Chang/monorepo-pern-profile-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hungyi-Chang/monorepo-pern-profile-page/issues"
+  },
+  "homepage": "https://github.com/Hungyi-Chang/monorepo-pern-profile-page#readme",
+  "devDependencies": {
+    "lerna": "^5.4.1",
+    "typescript": "^4.7.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
